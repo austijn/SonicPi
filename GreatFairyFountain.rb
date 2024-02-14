@@ -4,7 +4,7 @@
 use_bpm 320
 
 live_loop :rain do
-  sample "C:/Users/austin_northington/Desktop/rain2.mp3", beat_stretch:138, amp:10
+  sample "C:/Users/austin_northington/Desktop/rain.mp3", beat_stretch:138, amp:10
   sleep 128
 end
 
@@ -12,7 +12,7 @@ live_loop :snap do
   sleep 128
   16.times do
     sleep 5
-    sample "C:/Users/austin_northington/Desktop/snap3.mp3"
+    sample "C:/Users/austin_northington/Desktop/snap.mp3"
     sleep 11
   end
 end
