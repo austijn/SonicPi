@@ -1,4 +1,6 @@
 #by Austin N
+#make sure you put the audio files in your desktop and change the name of the user
+
 use_bpm 320
 
 live_loop :rain do
