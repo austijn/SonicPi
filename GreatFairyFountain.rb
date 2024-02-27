@@ -3,6 +3,264 @@
 
 use_bpm 320
 
+define :main do
+  play :A5, sustain:4
+  play :D5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  play :D5, sustain:4
+  sleep 4
+  play :Gb5, sustain:4
+  play :Db5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  play :Db5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  play :C5, sustain:4
+  sleep 4
+  play :F5, sustain:4
+  play :C5, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  play :C5, sustain:4
+  sleep 4
+  play :F5, sustain:4
+  play :C5, sustain:4
+  sleep 4
+  play :F5, sustain:4
+  play :Bb4, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  play :Bb4, sustain:4
+  sleep 4
+  play :Eb5, sustain:4
+  play :Bb4, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  play :Bb4, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  play :A4, sustain:4
+  sleep 4
+  play :D5, sustain:4
+  play :A4, sustain:4
+  sleep 4
+  play :Db5, sustain:4
+  play :A4, sustain:4
+  sleep 4
+  play :D5, sustain:4
+  play :A4, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  play :D5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  play :D5, sustain:4
+  sleep 4
+  play :Gb5, sustain:4
+  play :Db5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  play :Db5, sustain:4
+  sleep 4
+  play :Bb5, sustain:4
+  play :C5, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  play :C5, sustain:4
+  sleep 4
+  play :Ab5, sustain:4
+  play :C5, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  play :C5, sustain:4
+  sleep 4
+  play :C6, sustain:4
+  play :D5, sustain:4
+  sleep 4
+  play :Bb5, sustain:4
+  play :D5, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  play :D5, sustain:4
+  sleep 4
+  play :Bb5, sustain:4
+  play :D5, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  play :E5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  play :E5, sustain:4
+  sleep 4
+  play :F5, sustain:4
+  play :D5, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  play :C5, sustain:4
+  sleep 4
+end
+
+define :back do
+  play :Bb3, sustain:8
+  sleep 8
+  play :Bb3, sustain:8
+  sleep 8
+  play :A3, sustain:8
+  sleep 8
+  play :A3, sustain:8
+  sleep 8
+  play :G3, sustain:8
+  sleep 8
+  play :G3, sustain:8
+  sleep 8
+  play :F3, sustain:8
+  sleep 8
+  play :F3, sustain:8
+  sleep 8
+  play :Bb3, sustain:8
+  sleep 8
+  play :Bb3, sustain:8
+  sleep 8
+  play :A3, sustain:8
+  sleep 8
+  play :D4, sustain:8
+  sleep 8
+  play :G3, sustain:8
+  sleep 8
+  play :G3, sustain:8
+  sleep 8
+  play :C4, sustain:8
+  sleep 8
+  play :C4, sustain:8
+  sleep 8
+end
+
+define :mini do
+  play :A5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  sleep 4
+  play :Gb5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  sleep 4
+  play :F5, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  sleep 4
+  play :F5, sustain:4
+  sleep 4
+  play :F5, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  sleep 4
+  play :Eb5, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  sleep 4
+  play :D5, sustain:4
+  sleep 4
+  play :Db5, sustain:4
+  sleep 4
+  play :D5, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  sleep 4
+  play :Gb5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  sleep 4
+  play :Bb5, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  sleep 4
+  play :Ab5, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  sleep 4
+  play :C6, sustain:4
+  sleep 4
+  play :Bb5, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  sleep 4
+  play :Bb5, sustain:4
+  sleep 4
+  play :A5, sustain:4
+  sleep 4
+  play :G5, sustain:4
+  sleep 4
+  play :F5, sustain:4
+  sleep 4
+  play :E5, sustain:4
+  sleep 4
+end
+
+define :pluh do
+  4.times do
+    sleep 1
+    play :D5, sustain:1
+    sleep 1
+    play :Bb4, sustain:1
+    sleep 1
+    play :G4, sustain:1
+    sleep 1
+  end
+  4.times do
+    sleep 1
+    play :C5, sustain:1
+    sleep 1
+    play :A4, sustain:1
+    sleep 1
+    play :F4, sustain:1
+    sleep 1
+  end
+  2.times do
+    sleep 1
+    play :D5, sustain:1
+    sleep 1
+    play :Bb4, sustain:1
+    sleep 1
+    play :G4, sustain:1
+    sleep 1
+  end
+  2.times do
+    sleep 1
+    play :C5, sustain:1
+    sleep 1
+    play :Bb4, sustain:1
+    sleep 1
+    play :G4, sustain:1
+    sleep 1
+  end
+  2.times do
+    sleep 1
+    play :C5, sustain:1
+    sleep 1
+    play :A4, sustain:1
+    sleep 1
+    play :F4, sustain:1
+    sleep 1
+  end
+  2.times do
+    sleep 1
+    play :A4, sustain:1
+    sleep 1
+    play :F4, sustain:1
+    sleep 1
+    play :D4, sustain:1
+    sleep 1
+  end
+end
+
 live_loop :rain do
   sample "C:/Users/austin_northington/Desktop/rain.mp3", beat_stretch:138, amp:10
   sleep 128
@@ -22,107 +280,12 @@ live_loop :melody do
   3.times do
     use_synth :hollow
     with_fx :echo do
-      play :A5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :Gb5, sustain:4
-      play :Db5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :Db5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      play :Bb4, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :Bb4, sustain:4
-      sleep 4
-      play :Eb5, sustain:4
-      play :Bb4, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :Bb4, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :A4, sustain:4
-      sleep 4
-      play :D5, sustain:4
-      play :A4, sustain:4
-      sleep 4
-      play :Db5, sustain:4
-      play :A4, sustain:4
-      sleep 4
-      play :D5, sustain:4
-      play :A4, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :Gb5, sustain:4
-      play :Db5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :Db5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :Ab5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :C6, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :E5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :E5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :C5, sustain:4
-      sleep 4
+      main
     end
   end
   1.times do
     use_synth :blade
-    with_fx :echo do
+    with_fx :eq do
       play :A5, sustain:4, amp:0.2, pan:-1
       play :D5, sustain:4, amp:0.2, pan:-1
       sleep 4
@@ -222,103 +385,8 @@ live_loop :melody do
     end
   end
   2.times do
-    with_fx :echo do
-      play :A5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :Gb5, sustain:4
-      play :Db5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :Db5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      play :Bb4, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :Bb4, sustain:4
-      sleep 4
-      play :Eb5, sustain:4
-      play :Bb4, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :Bb4, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :A4, sustain:4
-      sleep 4
-      play :D5, sustain:4
-      play :A4, sustain:4
-      sleep 4
-      play :Db5, sustain:4
-      play :A4, sustain:4
-      sleep 4
-      play :D5, sustain:4
-      play :A4, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :Gb5, sustain:4
-      play :Db5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :Db5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :Ab5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :C5, sustain:4
-      sleep 4
-      play :C6, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      play :E5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      play :E5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      play :D5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      play :C5, sustain:4
-      sleep 4
+    with_fx :eq do
+      main
     end
   end
 end
@@ -329,76 +397,14 @@ live_loop :bass1 do
   sleep 128
   2.times do
     with_fx :echo do
-      play :Bb3, sustain:8
-      sleep 8
-      play :Bb3, sustain:8
-      sleep 8
-      play :A3, sustain:8
-      sleep 8
-      play :A3, sustain:8
-      sleep 8
-      play :G3, sustain:8
-      sleep 8
-      play :G3, sustain:8
-      sleep 8
-      play :F3, sustain:8
-      sleep 8
-      play :F3, sustain:8
-      sleep 8
-      play :Bb3, sustain:8
-      sleep 8
-      play :Bb3, sustain:8
-      sleep 8
-      play :A3, sustain:8
-      sleep 8
-      play :D4, sustain:8
-      sleep 8
-      play :G3, sustain:8
-      sleep 8
-      play :G3, sustain:8
-      sleep 8
-      play :C4, sustain:8
-      sleep 8
-      play :C4, sustain:8
-      sleep 8
+      back
     end
   end
   sleep 128
   2.times do
     with_fx :echo do
       use_synth :blade
-      play :Bb3, sustain:8
-      sleep 8
-      play :Bb3, sustain:8
-      sleep 8
-      play :A3, sustain:8
-      sleep 8
-      play :A3, sustain:8
-      sleep 8
-      play :G3, sustain:8
-      sleep 8
-      play :G3, sustain:8
-      sleep 8
-      play :F3, sustain:8
-      sleep 8
-      play :F3, sustain:8
-      sleep 8
-      play :Bb3, sustain:8
-      sleep 8
-      play :Bb3, sustain:8
-      sleep 8
-      play :A3, sustain:8
-      sleep 8
-      play :D4, sustain:8
-      sleep 8
-      play :G3, sustain:8
-      sleep 8
-      play :G3, sustain:8
-      sleep 8
-      play :C4, sustain:8
-      sleep 8
-      play :C4, sustain:8
-      sleep 8
+      back
     end
   end
 end
@@ -409,139 +415,13 @@ live_loop :arp1 do
   1.times do
     use_synth :piano
     with_fx :echo do
-      play :A5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :Gb5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
-      play :Eb5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
-      play :D5, sustain:4
-      sleep 4
-      play :Db5, sustain:4
-      sleep 4
-      play :D5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :Gb5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :Ab5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :C6, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
+      mini
     end
   end
   sleep 128
   2.times do
     with_fx :echo do
-      play :A5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :Gb5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
-      play :Eb5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
-      play :D5, sustain:4
-      sleep 4
-      play :Db5, sustain:4
-      sleep 4
-      play :D5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :Gb5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :Ab5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :C6, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :Bb5, sustain:4
-      sleep 4
-      play :A5, sustain:4
-      sleep 4
-      play :G5, sustain:4
-      sleep 4
-      play :F5, sustain:4
-      sleep 4
-      play :E5, sustain:4
-      sleep 4
+      mini
     end
   end
 end
@@ -552,119 +432,14 @@ live_loop :arp2 do
   2.times do
     use_synth :piano
     with_fx :echo do
-      4.times do
-        sleep 1
-        play :D5, sustain:1
-        sleep 1
-        play :Bb4, sustain:1
-        sleep 1
-        play :G4, sustain:1
-        sleep 1
-      end
-      4.times do
-        sleep 1
-        play :C5, sustain:1
-        sleep 1
-        play :A4, sustain:1
-        sleep 1
-        play :F4, sustain:1
-        sleep 1
-      end
-      2.times do
-        sleep 1
-        play :D5, sustain:1
-        sleep 1
-        play :Bb4, sustain:1
-        sleep 1
-        play :G4, sustain:1
-        sleep 1
-      end
-      2.times do
-        sleep 1
-        play :C5, sustain:1
-        sleep 1
-        play :Bb4, sustain:1
-        sleep 1
-        play :G4, sustain:1
-        sleep 1
-      end
-      2.times do
-        sleep 1
-        play :C5, sustain:1
-        sleep 1
-        play :A4, sustain:1
-        sleep 1
-        play :F4, sustain:1
-        sleep 1
-      end
-      2.times do
-        sleep 1
-        play :A4, sustain:1
-        sleep 1
-        play :F4, sustain:1
-        sleep 1
-        play :D4, sustain:1
-        sleep 1
-      end
+      pluh
     end
   end
+  
   sleep 128
   4.times do
     with_fx :echo do
-      4.times do
-        sleep 1
-        play :D5, sustain:1
-        sleep 1
-        play :Bb4, sustain:1
-        sleep 1
-        play :G4, sustain:1
-        sleep 1
-      end
-      4.times do
-        sleep 1
-        play :C5, sustain:1
-        sleep 1
-        play :A4, sustain:1
-        sleep 1
-        play :F4, sustain:1
-        sleep 1
-      end
-      2.times do
-        sleep 1
-        play :D5, sustain:1
-        sleep 1
-        play :Bb4, sustain:1
-        sleep 1
-        play :G4, sustain:1
-        sleep 1
-      end
-      2.times do
-        sleep 1
-        play :C5, sustain:1
-        sleep 1
-        play :Bb4, sustain:1
-        sleep 1
-        play :G4, sustain:1
-        sleep 1
-      end
-      2.times do
-        sleep 1
-        play :C5, sustain:1
-        sleep 1
-        play :A4, sustain:1
-        sleep 1
-        play :F4, sustain:1
-        sleep 1
-      end
-      2.times do
-        sleep 1
-        play :A4, sustain:1
-        sleep 1
-        play :F4, sustain:1
-        sleep 1
-        play :D4, sustain:1
-        sleep 1
-      end
+      pluh
     end
   end
 end
